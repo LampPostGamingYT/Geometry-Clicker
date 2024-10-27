@@ -35,7 +35,7 @@ Upgrades
 	desc:Gives the cubes better fingers
 	passive:multiply yield of cubes by 2
 	cost:200 orbs
-Achivements
+Achievements
 	*stereoAchivement
 		name:Stereo Madness!
 		desc:Get 100 orbs.
