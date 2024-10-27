@@ -40,3 +40,10 @@ Achievements
 		name:Stereo Madness!
 		desc:Get 100 orbs.
 		req:100 orbs
+Shinies
+	*TripleSpike
+		name:Triple Spike
+		on click: yield (random(orbs:ps*120,orbs:ps*300))
+		frequency:5
+		movement:growShrink pulse:1 bobVertical:0.25 bobHorizontal:0.25 anywhere
+		class:hasFlares
