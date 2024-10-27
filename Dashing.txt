@@ -2,3 +2,23 @@ Let's make a game!
   name:Geometry Clicker
   by:Lamp
   desc:Based off Geometry Dash by RobTopGames!
+  version:1.0
+CSS
+#game.on 
+{
+    background-size: 100% 100%;
+    image-rendering: pixelated;
+}
+Settings
+	background:https://raw.githubusercontent.com/LampPostGamingYT/Walker-Clicker/refs/heads/main/images/background.jpg
+	stylesheet:stuff/bigBlue.css
+
+Building
+  *cube|cubes
+    name:Cube|Cubes
+    desc:Da cube jump over spike. Gives 1 jump per second.
+    on tick:yield 1 jump
+Resources
+  *jump|jumps
+    name:Jump|Jumps
+    icon:https://github.com/LampPostGamingYT/Geometry-Clicker/blob/main/images/icons/SpikeIcon.png?raw=true
