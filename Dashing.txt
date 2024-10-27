@@ -13,9 +13,9 @@ Settings
 	background:https://raw.githubusercontent.com/LampPostGamingYT/Walker-Clicker/refs/heads/main/images/background.jpg
 	stylesheet:stuff/bigBlue.css
 
-Building
+Buildings
   *cube|cubes
-    name:Cube
+    name:Cube|Cubes
     desc:Da cube jump over spike. Gives 1 jump per second.
     on tick:yield 1 jump
     cost:10 jumps
