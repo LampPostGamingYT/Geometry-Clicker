@@ -34,4 +34,4 @@ Upgrades
 	name:Stronger Fingers
 	desc:Gives the cubes better fingers
 	passive:multiply yield of cubes by 2
-	cost:200
+	cost:200 orbs
