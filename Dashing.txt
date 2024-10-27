@@ -15,9 +15,10 @@ Settings
 
 Building
   *cube|cubes
-    name:Cube|Cubes
+    name:Cube
     desc:Da cube jump over spike. Gives 1 jump per second.
     on tick:yield 1 jump
+    cost:10 jumps
 Resources
   *jump|jumps
     name:Jump|Jumps
