@@ -1,0 +1,4 @@
+Let's make a game!
+  name:Geometry Clicker
+  by:Lamp
+  desc:Based off Geometry Dash by RobTopGames!
