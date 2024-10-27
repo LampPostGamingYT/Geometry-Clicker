@@ -21,10 +21,9 @@ Building
 Resources
   *jump|jumps
     name:Jump|Jumps
-    icon:https://github.com/LampPostGamingYT/Geometry-Clicker/blob/main/images/icons/SpikeIcon.png?raw=true
 
 Buttons
 	*jumpButton
 		on click:yield 1 jump
 		class:bigButton hasFlares
-		icon:https://github.com/LampPostGamingYT/Geometry-Clicker/blob/main/images/icons/SpikeIcon.png?raw=true
+		icon:https://github.com/LampPostGamingYT/Geometry-Clicker/blob/main/images/icons/jumpButtonIcon.png?raw=true
