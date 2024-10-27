@@ -16,15 +16,22 @@ Settings
 Buildings
   *cube|cubes
     name:Cube|Cubes
-    desc:Da cube jump over spike. Gives 1 jump per second.
-    on tick:yield 1 jump
-    cost:10 jumps
+    desc:Da cube jump over spike. Gives 1 orb per second.
+    on tick:yield 1 orb
+    cost:10 orbs
 Resources
-  *jump|jumps
-    name:Jump|Jumps
+  *orb|orbs
+    name:Mana Orb|Mana Orbs
 
 Buttons
 	*jumpButton
-		on click:yield 1 jump
+		on click:yield 1 orb
 		class:bigButton hasFlares
 		icon:https://github.com/LampPostGamingYT/Geometry-Clicker/blob/main/images/icons/jumpButtonIcon.png?raw=true
+
+Upgrades
+*strongerFingers
+	name:Stronger Fingers
+	desc:Gives the cubes better fingers
+	passive:multiply yield of cubes by 2
+	cost:200
