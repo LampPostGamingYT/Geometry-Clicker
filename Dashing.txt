@@ -43,7 +43,8 @@ Achievements
 Shinies
 	*TripleSpike
 		name:Triple Spike
-		on click:yield 100 orbs
-		frequency:5
+		on click:yield (random(10,100)) orbs
+		frequency:600
+		frequency variation:1200
 		movement:growShrink pulse:1 bobVertical:0.25 bobHorizontal:0.25 anywhere
 		class:hasFlares
